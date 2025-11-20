@@ -5,113 +5,31 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>T Kavana | AI & Data Science Engineer</title>
   <style>
-    body {
-      margin: 0;
-      font-family: 'Poppins', sans-serif;
-      background-color: #ffffff;
-      color: #333;
-      scroll-behavior: smooth;
-    }
-    header {
-      background: #5c2aa0;
-      color: white;
-      position: fixed;
-      top: 0;
-      width: 100%;
-      padding: 1rem 2rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      z-index: 1000;
-    }
-    header h1 {
-      font-size: 1.5rem;
-      margin: 0;
-    }
-    nav a {
-      color: white;
-      margin: 0 1rem;
-      text-decoration: none;
-      font-weight: 500;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    section {
-      padding: 100px 10%;
-      min-height: 100vh;
-    }
-    #home {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      background: linear-gradient(to right, #fff, #f4ecff);
-    }
-    #home h2 {
-      color: #5c2aa0;
-      font-size: 2rem;
-      margin-bottom: 0.5rem;
-    }
-    #home p {
-      max-width: 600px;
-    }
-    .btn {
-      background: #5c2aa0;
-      color: white;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      margin-top: 20px;
-      cursor: pointer;
-      text-decoration: none;
-    }
-    .btn:hover {
-      background: #421f77;
-    }
-    .project-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 20px;
-    }
-    .project-card {
-      background: #f7f2ff;
-      padding: 20px;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    }
-    .project-card h3 {
-      color: #5c2aa0;
-    }
-    .skills-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-      gap: 15px;
-      text-align: center;
-    }
-    .skill {
-      background: #f4ecff;
-      padding: 10px;
-      border-radius: 10px;
-    }
-    .timeline {
-      border-left: 3px solid #5c2aa0;
-      padding-left: 20px;
-    }
-    .timeline div {
-      margin-bottom: 20px;
-    }
-    footer {
-      background: #5c2aa0;
-      color: white;
-      text-align: center;
-      padding: 1rem;
-    }
-    footer a {
-      color: #fff;
-      margin: 0 10px;
-      text-decoration: none;
+    body { margin: 0; font-family: 'Poppins', sans-serif; background-color: #ffffff; color: #333; scroll-behavior: smooth; }
+    header { background: #5c2aa0; color: white; position: fixed; top: 0; width: 100%; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; z-index: 1000; }
+    header h1 { font-size: 1.5rem; margin: 0; }
+    nav a { color: white; margin: 0 1rem; text-decoration: none; font-weight: 500; }
+    nav a:hover { text-decoration: underline; }
+    section { padding: 100px 10%; min-height: 100vh; }
+    #home { display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; background: linear-gradient(to right, #fff, #f4ecff); }
+    #home h2 { color: #5c2aa0; font-size: 2rem; margin-bottom: 0.5rem; }
+    #home p { max-width: 600px; }
+    .btn { background: #5c2aa0; color: white; padding: 10px 20px; border: none; border-radius: 5px; margin-top: 20px; cursor: pointer; text-decoration: none; }
+    .btn:hover { background: #421f77; }
+    .project-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; }
+    .project-card { background: #f7f2ff; padding: 20px; border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); }
+    .project-card h3 { color: #5c2aa0; margin: 0 0 8px 0; }
+    .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 15px; text-align: center; }
+    .skill { background: #f4ecff; padding: 10px; border-radius: 10px; }
+    .timeline { border-left: 3px solid #5c2aa0; padding-left: 20px; }
+    .timeline div { margin-bottom: 20px; }
+    footer { background: #5c2aa0; color: white; text-align: center; padding: 1rem; margin-top: 40px; }
+    footer a { color: #fff; margin: 0 10px; text-decoration: none; }
+    /* responsive tweaks */
+    @media (max-width: 700px) {
+      section { padding: 80px 6%; }
+      header { padding: 0.8rem 1rem; }
+      nav a { margin: 0 0.5rem; font-size: 14px; }
     }
   </style>
 </head>
@@ -123,6 +41,7 @@
       <a href="#projects">Projects</a>
       <a href="#skills">Skills</a>
       <a href="#education">Education</a>
+      <a href="#certificates">Certificates</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
@@ -130,7 +49,7 @@
   <section id="home">
     <h2>AI & Data Science Engineer | Web Developer | Cloud Enthusiast</h2>
     <p>I'm an aspiring AI and Data Science Engineer passionate about building intelligent healthcare and accessibility systems. I combine AI, Web Development, and Cloud technologies to create impactful, real-world solutions that improve lives.</p>
-    <a class="btn" href="T KAVANA.pdf" download>Download Resume</a>
+    <a class="btn" href="T_KAVANA_Resume.pdf" download>Download Resume</a>
   </section>
 
   <section id="projects">
@@ -162,7 +81,7 @@
   <section id="skills">
     <h2>Technical Skills</h2>
     <div class="skills-grid">
-      <div class="skill">C,Python</div>
+      <div class="skill">C, Python</div>
       <div class="skill">Machine Learning</div>
       <div class="skill">Deep Learning</div>
       <div class="skill">Flask</div>
@@ -171,7 +90,7 @@
       <div class="skill">HTML, CSS, JS</div>
       <div class="skill">SQL, MongoDB</div>
       <div class="skill">Cloud Computing</div>
-      <div class="skill">GitHub, VS Code,Tableau</div>
+      <div class="skill">GitHub, VS Code, Tableau</div>
     </div>
   </section>
 
@@ -197,31 +116,31 @@
     </div>
   </section>
 
+  <section id="certificates">
+    <h2>Certificates</h2>
+    <div class="project-grid">
+      <div class="project-card"><h3>NPTEL – Cloud Computing (Elite)</h3><a href="NPTEL_Cloud_Computing.pdf" target="_blank" rel="noopener">View Certificate</a></div>
+      <div class="project-card"><h3>NPTEL – Problem Solving in C</h3><a href="NPTEL_Problem_Solving_C.pdf" target="_blank" rel="noopener">View Certificate</a></div>
+      <div class="project-card"><h3>Coursera – Full Stack Development</h3><a href="Coursera_Full_Stack.pdf" target="_blank" rel="noopener">View Certificate</a></div>
+      <div class="project-card"><h3>IBM – Introduction to Cloud Computing</h3><a href="IBM_Intro_Cloud.pdf" target="_blank" rel="noopener">View Certificate</a></div>
+      <div class="project-card"><h3>IBM – Introduction to Software Engineering</h3><a href="IBM_Intro_SoftwareEng.pdf" target="_blank" rel="noopener">View Certificate</a></div>
+      <div class="project-card"><h3>AWS – Introduction to Generative AI</h3><a href="AWS_GenAI_Certificate.pdf" target="_blank" rel="noopener">View Certificate</a></div>
+      <div class="project-card"><h3>Udemy - Deep Learning</h3><a href="Udemy_Deep_Learning.pdf" target="_blank" rel="noopener">View Certificate</a></div>
+      <div class="project-card"><h3>Udemy - Tableau</h3><a href="Udemy_Tableau.pdf" target="_blank" rel="noopener">View Certificate</a></div>
+      <div class="project-card"><h3>Internship - Prasunet</h3><a href="Prasunet_Internship.pdf" target="_blank" rel="noopener">View Certificate</a></div>
+      <div class="project-card"><h3>Internship - InternPe</h3><a href="InternPe_Internship.pdf" target="_blank" rel="noopener">View Certificate</a></div>
+    </div>
+  </section>
+
   <section id="contact">
     <h2>Contact</h2>
     <p>Email: <a href="mailto:kavanat26@gmail.com">kavanat26@gmail.com</a></p>
-    <p>LinkedIn: <a href="https://www.linkedin.com/in/t-kavana-1b9292261/" target="_blank">linkedin.com/in/t-kavana-1b9292261</a></p>
-    <p>GitHub: <a href="https://github.com/tkavana13" target="_blank">github.com/tkavana13</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/t-kavana-1b9292261/" target="_blank" rel="noopener">linkedin.com/in/t-kavana-1b9292261</a></p>
+    <p>GitHub: <a href="https://github.com/tkavana13" target="_blank" rel="noopener">github.com/tkavana13</a></p>
   </section>
 
   <footer>
     <p>© 2025 T KAVANA | Built with 💜 using HTML & CSS</p>
   </footer>
-  <section id="certificates">
-    <h2>Certificates</h2>
-    <div class="project-grid">
-      <div class="project-card"><h3>NPTEL – Cloud Computing (Elite)</h3><a href="Cloud Computing NPTEL Cert.pdf" target="_blank">View Certificate</a></div>
-      <div class="project-card"><h3>NPTEL – Problem Solving in C</h3><a href="Problem Solving Through Programming in C NPTEL CERT.pdf" target="_blank">View Certificate</a></div>
-      <div class="project-card"><h3>Coursera – Full Stack Development</h3><a href="Coursera Full stack.pdf" target="_blank">View Certificate</a></div>
-      <div class="project-card"><h3>IBM – Introduction to Cloud Computing</h3><a href="Introduction to cloud computing.pdf" target="_blank">View Certificate</a></div>
-      <div class="project-card"><h3>IBM – Introduction to Software Engineering</h3><a href="Introduction to software engineering.pdf" target="_blank">View Certificate</a></div>
-      <div class="project-card"><h3>AWS – Introduction to Generative AI</h3><a href="AWS Skill Builder Course Completion Certificate.pdf" target="_blank">View Certificate</a></div>
-      <div class="project-card"><h3>Udemy - Deep Learning</h3><a href="Deep Learning.pdf" target="_blank">View Certificate</a></div>
-      <div class="project-card"><h3>Udemy - Tableau</h3><a href="Tableau.pdf" target="_blank">View Certificate</a></div>
-      <div class="project-card"><h3>Internship - Prasunet Company </h3><a href="Prasunet_Internship.pdf" target="_blank">View Certificate</a></div>
-      <div class="project-card"><h3>Internship - InternPe Company </h3><a href="InternPe_Internship.pdf" target="_blank">View Certificate</a></div>            
-    </div>
-  </section>
-
 </body>
 </html>
